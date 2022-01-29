@@ -1,0 +1,47 @@
+{
+    "workbench.editor.wrapTabs": true,
+    "debug.console.fontSize": 12,
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontFamily": "Fira Code",
+    "window.zoomLevel": 1,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "editor.minimap.enabled": false,
+    "editor.cursorBlinking": "expand",
+    "python.languageServer": "Pylance",
+    "emmet.triggerExpansionOnTab": true,
+    "files.associations": {
+        "*.html": "html"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "editor.fontSize": 14.5,
+    "editor.fontFamily": "Fira Code iScript, FiraCode-Retina, Fira Code Retina, Consolas, monospace",
+    "editor.fontLigatures": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    // "entity.name.type.class",
+                    "keyword",
+                    "storage.modifier",
+                    "storage.type",
+                    "support.class.builtin",
+                    "keyword.control",
+                    "constant.langauge",
+                    // "string.quoted.single",
+                    "entity.name.method",
+                    "entity.name.tag"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "telemetry.telemetryLevel": "off",
+    "workbench.enableExperiments": false
+}
