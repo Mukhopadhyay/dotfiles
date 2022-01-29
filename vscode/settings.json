@@ -8,6 +8,7 @@
         "*.ipynb": "jupyter-notebook"
     },
     "editor.minimap.enabled": false,
+    "editor.cursorStyle": "block",
     "editor.cursorBlinking": "expand",
     "python.languageServer": "Pylance",
     "emmet.triggerExpansionOnTab": true,
