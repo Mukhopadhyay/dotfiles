@@ -1,3 +1,3 @@
 # dotfiles
 
-My configurations on Linux as well as Windows.
+My configurations on Linux & Windows.
