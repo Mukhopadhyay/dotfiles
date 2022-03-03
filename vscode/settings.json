@@ -44,5 +44,6 @@
         ]
     },
     "telemetry.telemetryLevel": "off",
-    "workbench.enableExperiments": false
+    "workbench.enableExperiments": false,
+    "editor.renderWhitespace": "all"
 }
