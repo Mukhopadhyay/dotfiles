@@ -1,19 +1,19 @@
 " Show line number
-:set number
+set number
 " Show syntax highlighting
-:syntax on
+syntax on
 " Show matching brackets
-:set showmatch
+set showmatch
 " Show (partial) command in status line
-:set showcmd
+set showcmd
 " Encoding
-:set encoding=utf-8
+set encoding=utf-8
 " File type detection
-:filetype on
+filetype on
 " Auto indentation
-:set autoindent
+set autoindent
 
 " Format options
-:set formatoptions+=r
-:set formatoptions+=o
+set formatoptions+=r
+set formatoptions+=o
 
