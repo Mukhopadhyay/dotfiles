@@ -2,8 +2,7 @@
     "workbench.editor.wrapTabs": true,
     "debug.console.fontSize": 12,
     "terminal.integrated.fontSize": 12,
-    "terminal.integrated.fontFamily": "Fira Code",
-    "window.zoomLevel": 1,
+    "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font Mono",
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
     },
@@ -18,32 +17,17 @@
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
-    "editor.fontSize": 14.5,
-    "editor.fontFamily": "Fira Code iScript, FiraCode-Retina, Fira Code Retina, Consolas, monospace",
-    "editor.fontLigatures": true,
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": [
-                    "comment",
-                    // "entity.name.type.class",
-                    "keyword",
-                    "storage.modifier",
-                    "storage.type",
-                    "support.class.builtin",
-                    "keyword.control",
-                    "constant.langauge",
-                    // "string.quoted.single",
-                    "entity.name.method",
-                    "entity.name.tag"
-                ],
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            }
-        ]
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
     },
+    "editor.fontSize": 15,
+    "editor.fontFamily": "CaskaydiaCove Nerd Font Mono, monospace",
+    "editor.fontLigatures": true,
     "telemetry.telemetryLevel": "off",
     "workbench.enableExperiments": false,
-    "editor.renderWhitespace": "all"
+    "editor.renderWhitespace": "all",
+    "window.zoomLevel": 1,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "City Lights",
+    "explorer.confirmDragAndDrop": false
 }

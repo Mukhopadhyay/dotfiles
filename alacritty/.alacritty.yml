@@ -11,19 +11,20 @@ window:
     y: 10
   # Window title
   title: Alacritty
+  opacity: .95
 
 # Font Customization
 font:
   normal:
-    family: Fira Code
+    family: CaskaydiaCove Nerd Font Mono
   bold:
-    family: Fira Code
+    family: CaskaydiaCove Nerd Font Mono
     style: Bold
   italic:
-    family: Fira Code
+    family: CaskaydiaCove Nerd Font
     style: Italic
   bold_italic:
-    family: Fira Code
+    family: CaskaydiaCove Nerd Font
     style: Bold Italic
   
   # Point / Font size
@@ -396,8 +397,3 @@ schemes:
 
 colors: *MonokaiPro
 
-# Background opacity
-#
-# Window opacity is a floating point number from `0.0` to `1.0`.
-# The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.95
